@@ -1,0 +1,88 @@
+{
+  "optimizer": "adamw",
+  "epochs": 100,
+  "unfreeze_epoch": 3,
+  "batch": 256,
+  "img_size": 224,
+  "use_sampler": true,
+  "use_class_weights": false,
+  "label_smoothing": 0.05,
+  "karci_alpha": null,
+  "best_acc": 0.6889105600445806,
+  "best_epoch": 100,
+  "classes": [
+    "angry",
+    "disgust",
+    "fear",
+    "happy",
+    "neutral",
+    "sad",
+    "surprise"
+  ],
+  "best_path": "./runs_cnn\\adamw\\best_adamw.pt",
+  "confusion_matrix": [
+    [
+      599,
+      2,
+      84,
+      44,
+      95,
+      123,
+      11
+    ],
+    [
+      16,
+      76,
+      4,
+      4,
+      4,
+      6,
+      1
+    ],
+    [
+      116,
+      0,
+      529,
+      40,
+      103,
+      176,
+      60
+    ],
+    [
+      39,
+      1,
+      17,
+      1539,
+      101,
+      50,
+      27
+    ],
+    [
+      70,
+      1,
+      67,
+      87,
+      823,
+      171,
+      14
+    ],
+    [
+      137,
+      0,
+      122,
+      67,
+      200,
+      708,
+      13
+    ],
+    [
+      28,
+      0,
+      50,
+      41,
+      24,
+      17,
+      671
+    ]
+  ]
+}

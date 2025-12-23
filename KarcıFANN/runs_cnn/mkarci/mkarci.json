@@ -1,0 +1,88 @@
+{
+  "optimizer": "mkarci",
+  "epochs": 100,
+  "unfreeze_epoch": 3,
+  "batch": 256,
+  "img_size": 224,
+  "use_sampler": true,
+  "use_class_weights": false,
+  "label_smoothing": 0.05,
+  "karci_alpha": 1.35,
+  "best_acc": 0.6678740596266369,
+  "best_epoch": 98,
+  "classes": [
+    "angry",
+    "disgust",
+    "fear",
+    "happy",
+    "neutral",
+    "sad",
+    "surprise"
+  ],
+  "best_path": "./runs_cnn\\mkarci\\best_mkarci.pt",
+  "confusion_matrix": [
+    [
+      554,
+      7,
+      75,
+      73,
+      122,
+      96,
+      31
+    ],
+    [
+      22,
+      76,
+      3,
+      3,
+      6,
+      0,
+      1
+    ],
+    [
+      132,
+      4,
+      477,
+      59,
+      147,
+      138,
+      67
+    ],
+    [
+      26,
+      0,
+      18,
+      1577,
+      98,
+      16,
+      39
+    ],
+    [
+      65,
+      2,
+      55,
+      95,
+      890,
+      110,
+      16
+    ],
+    [
+      148,
+      7,
+      118,
+      115,
+      308,
+      534,
+      17
+    ],
+    [
+      26,
+      0,
+      40,
+      34,
+      33,
+      12,
+      686
+    ]
+  ]
+}

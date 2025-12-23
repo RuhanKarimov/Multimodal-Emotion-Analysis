@@ -1,0 +1,22 @@
+{
+  "optimizer": "adamw",
+  "epochs": 40,
+  "unfreeze_epoch": 5,
+  "batch": 256,
+  "img_size": 224,
+  "use_sampler": true,
+  "use_class_weights": false,
+  "label_smoothing": 0.1,
+  "best_acc": 0.6830593480078017,
+  "best_epoch": 38,
+  "classes": [
+    "angry",
+    "disgust",
+    "fear",
+    "happy",
+    "neutral",
+    "sad",
+    "surprise"
+  ],
+  "best_pt": "best_adamw.pt"
+}

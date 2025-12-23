@@ -1,0 +1,22 @@
+{
+  "optimizer": "sgd",
+  "epochs": 40,
+  "unfreeze_epoch": 5,
+  "batch": 256,
+  "img_size": 224,
+  "use_sampler": true,
+  "use_class_weights": false,
+  "label_smoothing": 0.1,
+  "best_acc": 0.5161604903872945,
+  "best_epoch": 40,
+  "classes": [
+    "angry",
+    "disgust",
+    "fear",
+    "happy",
+    "neutral",
+    "sad",
+    "surprise"
+  ],
+  "best_pt": "best_sgd.pt"
+}

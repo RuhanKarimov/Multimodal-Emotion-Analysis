@@ -1,0 +1,13 @@
+{
+  "run_dir": "runs_cnn\\fer_cnn_20251217_222838",
+  "classes": [
+    "angry",
+    "disgust",
+    "fear",
+    "happy",
+    "neutral",
+    "sad",
+    "surprise"
+  ],
+  "counts": {
+    "angry": 

@@ -1,0 +1,88 @@
+{
+  "optimizer": "sgd",
+  "epochs": 100,
+  "unfreeze_epoch": 3,
+  "batch": 256,
+  "img_size": 224,
+  "use_sampler": true,
+  "use_class_weights": false,
+  "label_smoothing": 0.05,
+  "karci_alpha": null,
+  "best_acc": 0.5125383115073837,
+  "best_epoch": 83,
+  "classes": [
+    "angry",
+    "disgust",
+    "fear",
+    "happy",
+    "neutral",
+    "sad",
+    "surprise"
+  ],
+  "best_path": "./runs_cnn\\sgd\\best_sgd.pt",
+  "confusion_matrix": [
+    [
+      404,
+      86,
+      63,
+      95,
+      137,
+      114,
+      59
+    ],
+    [
+      12,
+      71,
+      2,
+      6,
+      8,
+      7,
+      5
+    ],
+    [
+      174,
+      65,
+      194,
+      74,
+      159,
+      187,
+      171
+    ],
+    [
+      109,
+      35,
+      44,
+      1289,
+      145,
+      84,
+      68
+    ],
+    [
+      119,
+      25,
+      75,
+      129,
+      649,
+      169,
+      67
+    ],
+    [
+      215,
+      59,
+      94,
+      126,
+      247,
+      466,
+      40
+    ],
+    [
+      41,
+      12,
+      59,
+      41,
+      49,
+      23,
+      606
+    ]
+  ]
+}
